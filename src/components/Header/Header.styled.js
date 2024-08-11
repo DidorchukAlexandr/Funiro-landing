@@ -1,0 +1,53 @@
+import styled from "styled-components";
+// import { NavLink } from "react-router-dom";
+
+export const HeaderWrap = styled.header`
+  min-width: 1440px;
+  background: #f9f1e7;
+`;
+
+export const Wrap = styled.div`
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 45px;
+`;
+
+export const Logo = styled.a`
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+`;
+
+export const Nav = styled.nav`
+  margin-left: 34px;
+`;
+
+export const List = styled.ul`
+  display: flex;
+`;
+
+export const Item = styled.li`
+  display: flex;
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+`;
+
+export const Link = styled.a`
+  display: flex;
+  align-items: center;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 1, 5; */
+  color: #3a3a3a;
+`;
+
+export const Img = styled.img`
+  margin-left: 8px;
+  width: 20px;
+  height: 20px;
+`;
