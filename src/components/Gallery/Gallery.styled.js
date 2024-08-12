@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const GallerySection = styled.section`
-  display: flex;
+  /* display: flex;
   width: 100%;
   padding: 44px 0 44px 0;
-  background: #fcf8f3;
+  background: #fcf8f3; */
 `;
 
 export const Container = styled.div`
   width: 1440px;
-  padding: 0 0 0 100px;
+  padding: 44px 0 44px 100px;
   margin: 0 auto;
+  background: #fcf8f3;
 `;
 
 export const TextWrap = styled.div`
