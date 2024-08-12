@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-  margin: 44px 0 0 482px;
+  margin: 44px 0 0 480px;
 `;
 
 export const Text = styled.h3`
