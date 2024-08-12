@@ -1,22 +1,21 @@
-import { Wrap, ListWrap, Img, ListPhoto, ItemPhoto, BtnWrap, Btn } from "./PaginationItem.styled";
+import { Wrap, ListWrap, Img, Text, Title, ListPhoto, ItemPhoto, BtnWrap, Btn, WrapBanner } from "./PaginationItem.styled";
 import Couch from "../../Images/Couch.jpg";
 import CouchLeft from "../../Images/CouchLeft.jpg";
 import CouchRight from "../../Images/CouchRight.jpg";
-import Banner from "../Banner/Banner";
 import BtnLeft from "../../Images/Svg/BtnLeft.svg";
 import BtnRight from "../../Images/Svg/BtnRight.svg";
 import Container from "../Container/Container";
 import Pagination from "./Pagination";
-
+import Button from "../Button/Button";
 
 
 const PaginationItem = () => {
 
     return (
+
+        <Container>
         <Wrap>
-            <Container>
-            
-                <ListWrap style={{
+            <ListWrap style={{
                     justifyContent: "flex-end",
                 }}>
                     <Pagination />
@@ -35,7 +34,6 @@ const PaginationItem = () => {
                         </Btn>
                     </BtnWrap>
             </ListWrap>
-            </Container>
             <ListPhoto>
                 <ItemPhoto>
                     <Img src={CouchLeft}
@@ -56,8 +54,15 @@ const PaginationItem = () => {
                          height="553"/>
                 </ItemPhoto>
             </ListPhoto>
-        <Banner />
-    </Wrap>
+                 <WrapBanner>
+            <Title>High-Quality
+                Furniture Just
+                For You</Title>
+            <Text>Our furniture is made from selected and best quality materials that are suitable for your dream home</Text>
+           <Button type="button">Shop Now</Button>
+        </WrapBanner>
+        </Wrap>
+    </Container>
 )
 }
 

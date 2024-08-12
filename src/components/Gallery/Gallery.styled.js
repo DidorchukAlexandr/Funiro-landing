@@ -2,12 +2,19 @@ import styled from "styled-components";
 
 export const GallerySection = styled.section`
   display: flex;
-  padding: 44px 0;
+  width: 100%;
+  padding: 44px 0 44px 0;
   background: #fcf8f3;
 `;
 
+export const Container = styled.div`
+  width: 1440px;
+  padding: 0 0 0 100px;
+  margin: 0 auto;
+`;
+
 export const TextWrap = styled.div`
-  padding: 179px 86px 179px 120px;
+  padding: 179px 86px 179px 0;
 `;
 
 export const Title = styled.h2`
@@ -35,6 +42,10 @@ export const Btn = styled.button`
   color: #fff;
   background: #e89f71;
   border: none;
+`;
+
+export const Wrap = styled.div`
+  display: flex;
 `;
 
 export const GalleryWrap = styled.div`

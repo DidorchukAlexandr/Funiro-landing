@@ -17,7 +17,7 @@ const Header = () => {
                                 <Item>
                                 <Link>Products
                                     <Img src={ArrowDown}
-                                          alt="Search"
+                                          alt="ArrowDown"
                                           width="20"
                                           height="20"/>
                                 </Link>
@@ -25,7 +25,7 @@ const Header = () => {
                                 <Item>
                                 <Link>Rooms
                                     <Img src={ArrowDown}
-                                         alt="Search"
+                                         alt="ArrowDown"
                                          width="20"
                                          height="20"/>
                                 </Link>
@@ -38,12 +38,9 @@ const Header = () => {
                     <Search />
                     <UserSection />
                 </Wrap>
-                
             </Container>
             <PaginationItem />
         </HeaderWrap>
-            
-        
 )
 }
 

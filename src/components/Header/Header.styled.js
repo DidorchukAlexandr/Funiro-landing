@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const HeaderWrap = styled.header`
   min-width: 1440px;
-  background: #f9f1e7;
+  background: linear-gradient(to right, #f9f1e7 65%, #fcf8f3 35%);
 `;
 
 export const Wrap = styled.div`

@@ -22,6 +22,7 @@ const FuniroFurniture = () => {
                 <Title>#FuniroFurniture</Title>
                 </Wrap>
             </Container>
+            <Container>
      <WrapList> 
         <List1>   
             <Item1>
@@ -84,7 +85,8 @@ const FuniroFurniture = () => {
                      height="433" />
                  </Item9>
         </List3>
-     </WrapList> 
+                </WrapList> 
+                </Container>
     </>
         
 )

@@ -1,5 +1,6 @@
 import {
     GallerySection,
+    Container,
     TextWrap,
     Title,
     Text,
@@ -8,6 +9,7 @@ import {
     ImgWrap,
     Img,
     Image,
+    Wrap,
     ImgTextWrap,
     Span,
     SpanLine,
@@ -24,10 +26,13 @@ import Room2 from "../../Images/Room2.jpg";
 import Room3 from "../../Images/Room3.jpg";
 import Pagination from "../PaginationItem/Pagination";
 
+
 const Gallery = () => {
     return (
-        <GallerySection>
-            <TextWrap>
+        <GallerySection >
+             <Container>
+                <Wrap>
+                     <TextWrap>
                 <Title>50+ Beautiful rooms 
                        inspiration
                 </Title>
@@ -49,8 +54,7 @@ const Gallery = () => {
                         </SpanLine>Bed Room</Span>
                         <ImgText>
                             Inner Peace
-                        </ImgText>
-                            
+                        </ImgText>        
                     </ImgTextWrap>
                     <BtnSquare>
                         <Img src={BtnSquareRight}
@@ -76,8 +80,11 @@ const Gallery = () => {
                             alt="Room3"
                             width="52"
                             height="486" />
-                </GalleryWrap>
+               </GalleryWrap>
+           </Wrap>
+             </Container>
     </GallerySection>
+      
 )
 }
 export default Gallery;
