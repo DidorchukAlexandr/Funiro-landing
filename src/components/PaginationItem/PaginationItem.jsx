@@ -35,8 +35,6 @@ const PaginationItem = () => {
                         </Btn>
                     </BtnWrap>
             </ListWrap>
-            
-            
             </Container>
             <ListPhoto>
                 <ItemPhoto>
@@ -57,9 +55,7 @@ const PaginationItem = () => {
                          maxWidth="68"
                          height="553"/>
                 </ItemPhoto>
-                
             </ListPhoto>
-            
         <Banner />
     </Wrap>
 )

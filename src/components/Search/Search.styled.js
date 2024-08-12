@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Wrap = styled.div`
-  /* position: absolute; */
-`;
+export const Wrap = styled.div``;
 
 export const Form = styled.form`
   margin-left: 31px;

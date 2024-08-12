@@ -42,7 +42,6 @@ export const Link = styled.a`
   font-family: "Gilroy";
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 1, 5; */
   color: #3a3a3a;
 `;
 

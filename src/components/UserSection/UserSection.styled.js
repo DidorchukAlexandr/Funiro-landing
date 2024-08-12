@@ -11,10 +11,6 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   margin-left: auto;
-  /* width: 476px;
-  height: 221px; */
-  /* backdrop-filter: blur(31px);
-  background: rgba(255, 255, 255, 0.72); */
 `;
 
 export const Item = styled.li`

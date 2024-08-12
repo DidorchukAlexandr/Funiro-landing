@@ -3,8 +3,6 @@ import Heart from "../../Images/Svg/Heart.svg";
 import Cart from "../../Images/Svg/Cart.svg";
 import User from "../../Images/Svg/User.svg";
 
-
-
 const UserSection = () => {
     return (
         
@@ -33,21 +31,6 @@ const UserSection = () => {
                          height="40"/>
                 </Link>
             </Item>
-            {/* <BtnWrap>
-                <Btn>
-                    <Img src={BtnLeft}
-                         alt="BtnLeft"
-                         width="48"
-                         height="48"/>
-                </Btn>
-                <Btn>
-                    <Img src={BtnRight}
-                         alt="BtnRight"
-                         width="48"
-                         height="48"/>
-                </Btn>
-            </BtnWrap> */}
-            
     </List>
 
     )

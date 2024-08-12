@@ -21,7 +21,7 @@ export const Title = styled.h2`
   font-weight: 700;
   font-size: 40px;
   color: #3a3a3a;
-  margin: 44px 0 32px 547px;
+  margin: 44px 0 32px 535px;
 `;
 
 export const Img = styled.img``;

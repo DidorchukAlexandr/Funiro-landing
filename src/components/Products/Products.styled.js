@@ -14,12 +14,6 @@ export const List = styled.ul`
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   margin-top: 32px;
-
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 32px; */
 `;
 
 export const Item = styled.li`
