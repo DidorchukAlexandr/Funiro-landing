@@ -1,15 +1,16 @@
 import styled from "styled-components";
 // import { NavLink } from "react-router-dom";
 
-export const HeaderWrap = styled.header`
-  min-width: 1440px;
+export const Container = styled.div`
+  width: 1440px;
+  margin: 0 auto;
   background: linear-gradient(to right, #f9f1e7 65%, #fcf8f3 35%);
 `;
 
 export const Wrap = styled.div`
   display: flex;
   align-items: center;
-  padding-top: 40px;
+  padding: 40px 100px 0 100px;
   margin-bottom: 45px;
 `;
 

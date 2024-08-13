@@ -1,5 +1,5 @@
-import { HeaderWrap, Wrap, Logo, Nav, List, Item, Link, Img} from "./Header.styled";
-import Container from "../Container/Container";
+import { Container, Wrap, Logo, Nav, List, Item, Link, Img} from "./Header.styled";
+// import Container from "../Container/Container";
 import Search from "../Search/Search";
 import ArrowDown from "../../Images/Svg/ArrowDown.svg";
 import PaginationItem from "../PaginationItem/PaginationItem";
@@ -8,7 +8,7 @@ import UserSection from "../UserSection/UserSection";
 const Header = () => {
     return (
         
-        <HeaderWrap>
+        
             <Container>
                 <Wrap>
                     <Logo>Funiro.</Logo>
@@ -38,9 +38,10 @@ const Header = () => {
                     <Search />
                     <UserSection />
                 </Wrap>
+                 <PaginationItem />
             </Container>
-            <PaginationItem />
-        </HeaderWrap>
+           
+   
 )
 }
 
