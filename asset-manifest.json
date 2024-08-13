@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/funiro-landing/static/css/main.7cda0caf.css",
-    "main.js": "/funiro-landing/static/js/main.3f64224c.js",
+    "main.js": "/funiro-landing/static/js/main.8778f809.js",
     "static/media/Couch.jpg": "/funiro-landing/static/media/Couch.c3408430a9fee33cf940.jpg",
     "static/media/User.svg": "/funiro-landing/static/media/User.303bcaaa66a35d696df5b260a26f7b6e.svg",
     "static/media/Tricks1.jpg": "/funiro-landing/static/media/Tricks1.5548865012274e9e6360.jpg",
@@ -54,10 +54,10 @@
     "static/media/Ellipse.svg": "/funiro-landing/static/media/Ellipse.6a5f17605aa538dce58ff079ad0e2444.svg",
     "static/media/Line.svg": "/funiro-landing/static/media/Line.11d94b7a21b3f531045689baf0f57a4b.svg",
     "main.7cda0caf.css.map": "/funiro-landing/static/css/main.7cda0caf.css.map",
-    "main.3f64224c.js.map": "/funiro-landing/static/js/main.3f64224c.js.map"
+    "main.8778f809.js.map": "/funiro-landing/static/js/main.8778f809.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.3f64224c.js"
+    "static/js/main.8778f809.js"
   ]
 }
